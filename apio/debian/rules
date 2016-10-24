@@ -1,0 +1,22 @@
+#!/usr/bin/make -f
+
+export LC_ALL=C.UTF-8
+export LANG=C.UTF-8
+
+export PYBUILD_NAME=apio
+export PYBUILD_TEST_PYTEST=1
+export PYBUILD_TEST_ARGS={dir}/test/ -k "-test_complete and -test_upgrade"
+
+export SOURCE = $(CURDIR)/debian/
+
+%:
+	dh $@ --with python2 --buildsystem=pybuild
+
+override_dh_auto_configure:
+	dh_auto_configure
+
+override_dh_installudev:
+	dh_installudev --priority=99
+
+override_dh_auto_test:
+	echo "Temporally disabled, changes in behavior when /etc/apio.json is installed produces failures"

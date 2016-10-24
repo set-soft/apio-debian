@@ -1,0 +1,14 @@
+Source: apio-icestorm
+Section: electronics
+Priority: optional
+Maintainer: SET <set@ieee.org>
+Build-Depends: debhelper (>= 9)
+Homepage: https://github.com/FPGAwars/toolchain-icestorm
+Standards-Version: 3.9.5
+
+Package: apio-icestorm
+Architecture: any
+Depends: apio, arachne-pnr, yosys, fpga-icestorm
+Description: APIO Icestorm toolchain
+ Provides tools to develope using iCE40 FPGAs for APIO.
+

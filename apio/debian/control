@@ -1,0 +1,22 @@
+Source: apio
+Section: electronics
+Priority: optional
+Maintainer: Salvador E. Tropea <salvador@inti.gob.ar>
+Build-Depends: debhelper (>= 9),
+               dh-python,
+               python-all,
+               python-setuptools
+Build-Depends-Indep: python-pytest,
+                     python-click
+Standards-Version: 3.9.7
+Homepage: https://github.com/FPGAwars/apio
+
+Package: apio
+Architecture: all
+Depends: ${misc:Depends}, ${python:Depends}, python-colorama
+Description: Experimental open source micro-ecosystem for open FPGAs
+ Based on platformio. Apio is a multiplatform toolbox, with static
+ pre-built packages, project configuration tools and easy commands to
+ verify, synthesize, simulate and upload your verilog designs.
+
+

@@ -1,0 +1,14 @@
+Source: apio-scons
+Section: electronics
+Priority: optional
+Maintainer: SET <set@ieee.org>
+Build-Depends: debhelper (>= 9)
+Homepage: https://github.com/FPGAwars/tool-scons
+Standards-Version: 3.9.5
+
+Package: apio-scons
+Architecture: all
+Depends: apio, scons
+Description: APIO scons build system
+ Provides the scons builder for APIO.
+

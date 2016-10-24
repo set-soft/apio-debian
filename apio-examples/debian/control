@@ -1,0 +1,15 @@
+Source: apio-examples
+Section: electronics
+Priority: optional
+Maintainer: SET <set@ieee.org>
+Build-Depends: debhelper (>= 9)
+Homepage: https://github.com/FPGAwars/apio-examples
+Standards-Version: 3.9.5
+
+Package: apio-examples
+Architecture: all
+Depends: apio
+Description: APIO examples
+ Provides the examples for APIO.
+ Package which contains verilog and pcf examples.
+

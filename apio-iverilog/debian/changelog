@@ -1,0 +1,17 @@
+apio-iverilog (1.0.0-3) stable; urgency=medium
+
+  * Added: More links in bin/
+
+ -- Salvador Eduardo Tropea <salvador@inti.gob.ar>  Mon, 24 Oct 2016 13:09:13 -0300
+
+apio-iverilog (1.0.0-2) stable; urgency=medium
+
+  * Fixed: Missing lib link
+
+ -- Salvador Eduardo Tropea <salvador@inti.gob.ar>  Fri, 21 Oct 2016 12:16:46 -0300
+
+apio-iverilog (1.0.0-1) stable; urgency=medium
+
+  * Initial release.
+
+ -- Salvador Eduardo Tropea <salvador@inti.gob.ar>  Fri, 14 Oct 2016 14:15:09 -0300

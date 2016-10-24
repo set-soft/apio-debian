@@ -1,0 +1,14 @@
+Source: apio-iverilog
+Section: electronics
+Priority: optional
+Maintainer: SET <set@ieee.org>
+Build-Depends: debhelper (>= 9)
+Homepage: https://github.com/FPGAwars/toolchain-iverilog
+Standards-Version: 3.9.5
+
+Package: apio-iverilog
+Architecture: any
+Depends: apio, iverilog, gtkwave
+Description: APIO simulation toolchain
+ Provides tools to simulate Verilog for APIO.
+
