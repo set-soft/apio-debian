@@ -18,5 +18,6 @@ override_dh_auto_configure:
 override_dh_installudev:
 	dh_installudev --priority=99
 
-override_dh_auto_test:
-	echo "Temporally disabled, changes in behavior when /etc/apio.json is installed produces failures"
+# override_dh_auto_test:
+# 	echo "Temporally disabled, changes in behavior when /etc/apio.json is installed produces failures"
+
