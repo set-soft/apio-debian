@@ -11,6 +11,7 @@ Standards-Version: 3.9.5
 Package: apio-system
 Architecture: amd64
 Depends: apio, ${shlibs:Depends}, ${misc:Depends}
+Conflicts: apio-usb-ftdi
 Description: APIO helpers for USB tasks
  Provides the system tools for APIO.
  They include lsftdi to find all FT2232H chips and lsusb to list all

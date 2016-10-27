@@ -1,0 +1,7 @@
+{
+  "name":"apio-examples",
+  "description":"Verilog and pcf examples",
+  "url":"https://github.com/FPGAwars/apio-examples/releases",
+  "version": "1.0.0",
+  "system": [ "all" ]
+}

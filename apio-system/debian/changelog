@@ -1,4 +1,10 @@
-apio-system (0.1-1) stable; urgency=medium
+apio-system (1.0.0-2) stable; urgency=medium
+
+  * Added packages.json
+
+ -- Salvador Eduardo Tropea <salvador@inti.gob.ar>  Thu, 27 Oct 2016 15:17:12 -0300
+
+apio-system (1.0.0-1) stable; urgency=medium
 
   * Initial release.
 

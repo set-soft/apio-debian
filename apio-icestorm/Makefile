@@ -12,6 +12,7 @@ install:
 	ln -s /usr/bin/icetime $(DESTDIR)$(INST_DIR)/bin/icetime
 	ln -s /usr/bin/yosys $(DESTDIR)$(INST_DIR)/bin/yosys
 	ln -s /usr/bin/yosys-abc $(DESTDIR)$(INST_DIR)/bin/yosys-abc
+	install -m 0644 package.json $(DESTDIR)$(INST_DIR)/
 
 
 

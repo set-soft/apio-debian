@@ -1,4 +1,10 @@
-apio-icestorm (0.0.9-1) UNRELEASED; urgency=medium
+apio-icestorm (0.9-2) stable; urgency=medium
+
+  * Added package.json
+
+ -- Salvador Eduardo Tropea <salvador@inti.gob.ar>  Thu, 27 Oct 2016 15:37:36 -0300
+
+apio-icestorm (0.9-1) stable; urgency=medium
 
   * Initial release.
 
