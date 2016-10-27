@@ -1,4 +1,4 @@
-Source: apio-usb-ftdi
+Source: apio-system
 Section: electronics
 Priority: optional
 Maintainer: SET <set@ieee.org>
@@ -8,11 +8,11 @@ Build-Depends: debhelper (>= 9),
 Homepage: https://github.com/FPGAwars/apio
 Standards-Version: 3.9.5
 
-Package: apio-usb-ftdi
+Package: apio-system
 Architecture: amd64
 Depends: apio, ${shlibs:Depends}, ${misc:Depends}
 Description: APIO helpers for USB tasks
  Provides the system tools for APIO.
- They include find_all to find all FT2232H chips and listdevs to list all
+ They include lsftdi to find all FT2232H chips and lsusb to list all
  USB devices.
 

@@ -14,7 +14,7 @@ Homepage: https://github.com/FPGAwars/apio
 Package: apio
 Architecture: all
 Depends: ${misc:Depends}, ${python:Depends}, python-colorama
-Recommends: apio-examples, apio-icestorm, apio-scons, apio-iverilog, apio-usb-ftdi
+Recommends: apio-examples, apio-icestorm, apio-scons, apio-iverilog, apio-system
 Description: Experimental open source micro-ecosystem for open FPGAs
  Based on platformio. Apio is a multiplatform toolbox, with static
  pre-built packages, project configuration tools and easy commands to
