@@ -1,8 +1,14 @@
+apio (0.1.8.1-1) stable; urgency=medium
+
+  * Modified to make "apio install -l" list the system wide packages
+
+ -- Salvador Eduardo Tropea <salvador@inti.gob.ar>  Tue, 01 Nov 2016 11:04:57 -0300
+
 apio (0.1.8.0-1) stable; urgency=medium
 
   * New upstream release.
 
- -- Salvador Eduardo Tropea <salvador@aika.inti.gov.ar>  Thu, 27 Oct 2016 13:35:42 -0300
+ -- Salvador Eduardo Tropea <salvador@inti.gob.ar>  Thu, 27 Oct 2016 13:35:42 -0300
 
 apio (0.1.7.6-2) stable; urgency=medium
 
