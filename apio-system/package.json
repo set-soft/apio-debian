@@ -2,6 +2,6 @@
   "name":"tools-system",
   "description":"System tools",
   "url":"https://github.com/FPGAwars/tools-system/releases",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "system": [ "linux_x86_64" ]
 }

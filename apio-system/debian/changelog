@@ -1,3 +1,9 @@
+apio-system (1.1.0-1) stable; urgency=medium
+
+  * Renamed "system" to "tools-system"
+
+ -- Salvador Eduardo Tropea <salvador@inti.gov.ar>  Thu, 03 Aug 2017 13:41:01 -0300
+
 apio-system (1.0.0-2) stable; urgency=medium
 
   * Added packages.json

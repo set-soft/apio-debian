@@ -2,7 +2,7 @@ CFLAGS += `pkg-config --cflags libusb-1.0` `pkg-config --cflags libftdi`
 LDLIBS += `pkg-config --libs libusb-1.0`   `pkg-config --libs libftdi`
 # TODO: En realidad esto debería ser así, pero apio sólo soporta 1 directorio
 #ARCHDIR ?= x86_64-linux-gnu/
-INST_DIR := /usr/lib/$(ARCHDIR)apio/packages/system
+INST_DIR := /usr/lib/$(ARCHDIR)apio/packages/tools-system
 
 all: lsftdi lsusb
 
