@@ -1,0 +1,8 @@
+--- a/apio/__init__.py
++++ b/apio/__init__.py
+@@ -18,4 +18,4 @@
+ 
+ # Enable this flag to load data from /etc/apio.json file
+ # Used in apio-debian distribution
+-LOAD_CONFIG_DATA = False
++LOAD_CONFIG_DATA = True
