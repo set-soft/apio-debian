@@ -1,3 +1,9 @@
+apio-examples (0.0.8-3) stable; urgency=medium
+
+  * Updated from git
+
+ -- Salvador Eduardo Tropea <salvador@inti.gov.ar>  Thu, 03 Aug 2017 10:28:09 -0300
+
 apio-examples (0.0.8-2) stable; urgency=medium
 
   * Added package.json
