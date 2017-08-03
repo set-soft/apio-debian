@@ -1,3 +1,10 @@
+apio (0.2.4.1-2) stable; urgency=medium
+
+  * Fixed: the distribution.json file used a format not compatible with
+           python-semantic-version 2.3.x
+
+ -- Salvador Eduardo Tropea <salvador@inti.gov.ar>  Thu, 03 Aug 2017 14:30:47 -0300
+
 apio (0.2.4.1-1) stable; urgency=medium
 
   * New upstream release. icestudio 0.3.0 needs apio 0.2.4/5
