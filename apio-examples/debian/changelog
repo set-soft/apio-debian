@@ -1,3 +1,11 @@
+apio-examples (0.0.8-4) stable; urgency=medium
+
+  * Git 7f1a6d
+  * Added TinyFPGA-B2
+  * Added Frere Jacques and Marcha Imperial
+
+ -- Salvador Eduardo Tropea <salvador@inti.gob.ar>  Wed, 27 Dec 2017 09:54:33 -0300
+
 apio-examples (0.0.8-3) stable; urgency=medium
 
   * Updated from git

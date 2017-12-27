@@ -1,4 +1,4 @@
-DIRS := Cat-board go-board iCE40-HX8K icestick icezum icoboard leds Makefile_example wire kefir
+DIRS := Cat-board go-board iCE40-HX8K icestick icezum icoboard leds Makefile_example wire kefir TinyFPGA-B2
 INST_DIR := /usr/lib/apio/packages/examples
 
 all:
