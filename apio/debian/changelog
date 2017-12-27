@@ -1,3 +1,9 @@
+apio (0.3.0.0-1) stable; urgency=medium
+
+  * Beta 2 release
+
+ -- Salvador Eduardo Tropea <salvador@inti.gob.ar>  Tue, 26 Dec 2017 13:29:08 -0300
+
 apio (0.2.4.1-2) stable; urgency=medium
 
   * Fixed: the distribution.json file used a format not compatible with

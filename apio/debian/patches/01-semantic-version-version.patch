@@ -1,17 +1,28 @@
---- a/setup.py
-+++ b/setup.py
-@@ -22,7 +22,7 @@
+Index: apio/setup.py
+===================================================================
+--- apio.orig/setup.py
++++ apio/setup.py
+@@ -22,12 +22,11 @@ setup(
      },
      install_requires=[
          'click>=5,<7',
 -        'semantic_version>=2.5.0',
 +        'semantic_version>=2.3.0',
          'requests>=2.4.0,<3',
-         'colorama'
+-        'pyjwt>=1.5.3,<2',
++        'pyjwt>=1.4.2,<2',
+         'colorama',
+-        'pyserial>=3,<4',
+-        'scons==3.0.1'
++        'pyserial>=3,<4'
      ],
---- a/apio/resources/distribution.json
-+++ b/apio/resources/distribution.json
-@@ -1,11 +1,11 @@
+     entry_points={
+         'console_scripts': ['apio=apio.__main__:cli']
+Index: apio/apio/resources/distribution.json
+===================================================================
+--- apio.orig/apio/resources/distribution.json
++++ apio/apio/resources/distribution.json
+@@ -1,10 +1,10 @@
  {
    "packages": {
 -    "drivers": "~1.0.0",
@@ -19,14 +30,12 @@
 -    "gtkwave": "~3.3.77",
 -    "icestorm": "~1.10.1",
 -    "iverilog": "~1.1.0",
--    "scons": "~2.4.1",
 -    "system": "~1.1.0"
 +    "drivers": ">=1.0.0,<1.1.0",
 +    "examples": ">=0.0.7,<0.1.0",
 +    "gtkwave": ">=3.3.77,<3.4.0",
 +    "icestorm": ">=1.10.1,<1.11.0",
 +    "iverilog": ">=1.1.0,<1.2.0",
-+    "scons": ">=2.4.1,<2.5.0",
 +    "system": ">=1.1.0,<1.2.0"
    }
  }

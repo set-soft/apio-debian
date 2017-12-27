@@ -4,17 +4,18 @@ Priority: optional
 Maintainer: Salvador E. Tropea <salvador@inti.gob.ar>
 Build-Depends: debhelper (>= 9),
                dh-python,
-               python-all,
-               python-setuptools,
-               python-semantic-version
-Build-Depends-Indep: python-pytest,
-                     python-click
+               python3-all,
+               python3-setuptools,
+               python3-semantic-version
+Build-Depends-Indep: python3-pytest,
+                     python3-click,
+                     python3-jwt
 Standards-Version: 3.9.7
 Homepage: https://github.com/FPGAwars/apio
 
 Package: apio
 Architecture: all
-Depends: ${misc:Depends}, ${python:Depends}, python-colorama
+Depends: ${misc:Depends}, ${python:Depends}, python3-colorama, python3-jwt, scons (>= 3.0.1), python3-serial
 Conflicts: apio-system (<< 1.1.0)
 Recommends: apio-examples, apio-icestorm, apio-scons, apio-iverilog, apio-system
 Description: Experimental open source micro-ecosystem for open FPGAs

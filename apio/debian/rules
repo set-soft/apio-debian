@@ -5,7 +5,7 @@ export LANG=C.UTF-8
 
 export PYBUILD_NAME=apio
 export PYBUILD_TEST_PYTEST=1
-export PYBUILD_TEST_ARGS={dir}/test/ -k "-test_complete and -test_upgrade"
+export PYBUILD_TEST_ARGS={dir}/test/ -k "not test_upgrade and not test_complete"
 
 export SOURCE = $(CURDIR)/debian/
 
