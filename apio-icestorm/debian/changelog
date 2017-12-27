@@ -1,3 +1,10 @@
+apio-icestorm (1.10.1-1) stable; urgency=medium
+
+  * Bumped version
+  * Added icemulti
+
+ -- Salvador Eduardo Tropea <salvador@inti.gob.ar>  Wed, 27 Dec 2017 10:03:11 -0300
+
 apio-icestorm (0.9-2) stable; urgency=medium
 
   * Added package.json

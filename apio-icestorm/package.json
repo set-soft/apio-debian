@@ -2,6 +2,6 @@
   "name":"toolchain-icestorm",
   "description":"IceStorm toolchain",
   "url":"https://github.com/FPGAwars/toolchain-icestorm/releases",
-  "version": "0.9",
+  "version": "1.10.1",
   "system": [ "linux_x86_64" ]
 }
