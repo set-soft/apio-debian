@@ -8,7 +8,7 @@ Standards-Version: 3.9.5
 
 Package: apio-scons
 Architecture: all
-Depends: apio, scons
+Depends: apio, scons (>= 3.0.1)
 Description: APIO scons build system
  Provides the scons builder for APIO.
 

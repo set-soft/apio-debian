@@ -1,3 +1,9 @@
+apio-scons (3.0.1-1) stable; urgency=medium
+
+  * Bumped version to Scons 3.0.1
+
+ -- Salvador Eduardo Tropea <salvador@inti.gob.ar>  Wed, 27 Dec 2017 10:20:26 -0300
+
 apio-scons (2.3.1-2) stable; urgency=medium
 
   * Added package.json
