@@ -1,0 +1,20 @@
+APIO 0.3.x needs Scons 3.0.1.
+Debian 9 uses Scons 2.5.1, but the 3.0.1-1 from buster can be used.
+
+When using APIO 0.3.3 I found a problem in the Scons 3.0.1-1: it uses code
+that isn't valid for Python 3. The code is part of a Debian patch (not part
+of the original code). I solved it creating a Scons 3.0.1-2 package.
+For this I applied the following patch to the Debian packaging files:
+
+--- debian.ori/patches/0110-remove_stale_files.patch	2017-10-03 01:25:00.000000000 -0300
++++ debian/patches/0110-remove_stale_files.patch	2018-06-13 10:17:11.827813301 -0300
+@@ -13,7 +13,7 @@
+  
+ +        # Remove temporary files left by SCons
+ +        if options.clean:
+-+            if os.environ.has_key('DH_INTERNAL_OPTIONS'):
+++            if 'DH_INTERNAL_OPTIONS' in os.environ:
+ +                import shutil
+ +                for path in ('.sconsign.dblite', '.sconf_temp'):
+ +                    try:
+
